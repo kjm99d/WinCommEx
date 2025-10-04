@@ -12,6 +12,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinCommExTest", "..\Project
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinCommEx", "..\Project\WinCommEx.vcxproj", "{F508FFEC-95A0-4A41-B053-7FC6DF3302FD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "WinCommExUtility", "..\Project\WinCommExUtility.vcxproj", "{44D2D80B-1653-4930-8DC3-0D92F6AB4493}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -36,6 +38,14 @@ Global
 		{F508FFEC-95A0-4A41-B053-7FC6DF3302FD}.Release|x64.Build.0 = Release|x64
 		{F508FFEC-95A0-4A41-B053-7FC6DF3302FD}.Release|x86.ActiveCfg = Release|Win32
 		{F508FFEC-95A0-4A41-B053-7FC6DF3302FD}.Release|x86.Build.0 = Release|Win32
+		{44D2D80B-1653-4930-8DC3-0D92F6AB4493}.Debug|x64.ActiveCfg = Debug|x64
+		{44D2D80B-1653-4930-8DC3-0D92F6AB4493}.Debug|x64.Build.0 = Debug|x64
+		{44D2D80B-1653-4930-8DC3-0D92F6AB4493}.Debug|x86.ActiveCfg = Debug|Win32
+		{44D2D80B-1653-4930-8DC3-0D92F6AB4493}.Debug|x86.Build.0 = Debug|Win32
+		{44D2D80B-1653-4930-8DC3-0D92F6AB4493}.Release|x64.ActiveCfg = Release|x64
+		{44D2D80B-1653-4930-8DC3-0D92F6AB4493}.Release|x64.Build.0 = Release|x64
+		{44D2D80B-1653-4930-8DC3-0D92F6AB4493}.Release|x86.ActiveCfg = Release|Win32
+		{44D2D80B-1653-4930-8DC3-0D92F6AB4493}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

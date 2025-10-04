@@ -25,6 +25,24 @@
     <Filter Include="헤더 파일\SharedMemory">
       <UniqueIdentifier>{2d580ac1-7efd-4440-87b4-8bdf3ad0d395}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Mutex">
+      <UniqueIdentifier>{23e2105b-7420-4c80-97fa-251d8da7b46f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Mutex">
+      <UniqueIdentifier>{604e68c4-33e9-4236-beb7-4f38f0cd26cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Thread">
+      <UniqueIdentifier>{860a4866-95b2-408d-9e20-26968f6ecd88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Thread">
+      <UniqueIdentifier>{95601b0e-5db1-4b22-9d47-d2d420fbd9fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Logger">
+      <UniqueIdentifier>{50db55d2-039a-480c-841e-4d03fc54c4ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\Logger">
+      <UniqueIdentifier>{3feea795-eebe-46de-a745-db14b8f17feb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\WinCommEx\PipeProtocol.h">
@@ -42,6 +60,18 @@
     <ClInclude Include="..\WinCommEx\Export.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
+    <ClInclude Include="Mutex.h">
+      <Filter>헤더 파일\Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="ScopedMutexLock.h">
+      <Filter>헤더 파일\Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="FileLogger.h">
+      <Filter>헤더 파일\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="ObfusFileLogger.h">
+      <Filter>헤더 파일\Logger</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\WinCommEx\PipeServer.cpp">
@@ -52,6 +82,18 @@
     </ClCompile>
     <ClCompile Include="..\WinCommEx\dllmain.cpp">
       <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Mutex.cpp">
+      <Filter>소스 파일\Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="ScopedMutexLock.cpp">
+      <Filter>소스 파일\Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="FileLogger.cpp">
+      <Filter>소스 파일\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="ObfusFileLogger.cpp">
+      <Filter>소스 파일\Logger</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
