@@ -60,17 +60,17 @@
     <ClInclude Include="..\WinCommEx\Export.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
-    <ClInclude Include="Mutex.h">
-      <Filter>헤더 파일\Mutex</Filter>
-    </ClInclude>
-    <ClInclude Include="ScopedMutexLock.h">
-      <Filter>헤더 파일\Mutex</Filter>
-    </ClInclude>
-    <ClInclude Include="FileLogger.h">
+    <ClInclude Include="..\WinCommEx\ObfusFileLogger.h">
       <Filter>헤더 파일\Logger</Filter>
     </ClInclude>
-    <ClInclude Include="ObfusFileLogger.h">
+    <ClInclude Include="..\WinCommEx\FileLogger.h">
       <Filter>헤더 파일\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WinCommEx\Mutex.h">
+      <Filter>헤더 파일\Mutex</Filter>
+    </ClInclude>
+    <ClInclude Include="..\WinCommEx\ScopedMutexLock.h">
+      <Filter>헤더 파일\Mutex</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -83,17 +83,17 @@
     <ClCompile Include="..\WinCommEx\dllmain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="Mutex.cpp">
-      <Filter>소스 파일\Mutex</Filter>
-    </ClCompile>
-    <ClCompile Include="ScopedMutexLock.cpp">
-      <Filter>소스 파일\Mutex</Filter>
-    </ClCompile>
-    <ClCompile Include="FileLogger.cpp">
+    <ClCompile Include="..\WinCommEx\ObfusFileLogger.cpp">
       <Filter>소스 파일\Logger</Filter>
     </ClCompile>
-    <ClCompile Include="ObfusFileLogger.cpp">
+    <ClCompile Include="..\WinCommEx\FileLogger.cpp">
       <Filter>소스 파일\Logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WinCommEx\ScopedMutexLock.cpp">
+      <Filter>소스 파일\Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WinCommEx\Mutex.cpp">
+      <Filter>소스 파일\Mutex</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

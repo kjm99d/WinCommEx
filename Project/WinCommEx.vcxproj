@@ -152,23 +152,23 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="..\WinCommEx\Export.h" />
+    <ClInclude Include="..\WinCommEx\FileLogger.h" />
     <ClInclude Include="..\WinCommEx\framework.h" />
+    <ClInclude Include="..\WinCommEx\Mutex.h" />
+    <ClInclude Include="..\WinCommEx\ObfusFileLogger.h" />
     <ClInclude Include="..\WinCommEx\PipeClient.h" />
     <ClInclude Include="..\WinCommEx\PipeProtocol.h" />
     <ClInclude Include="..\WinCommEx\PipeServer.h" />
-    <ClInclude Include="FileLogger.h" />
-    <ClInclude Include="Mutex.h" />
-    <ClInclude Include="ObfusFileLogger.h" />
-    <ClInclude Include="ScopedMutexLock.h" />
+    <ClInclude Include="..\WinCommEx\ScopedMutexLock.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\WinCommEx\dllmain.cpp" />
+    <ClCompile Include="..\WinCommEx\FileLogger.cpp" />
+    <ClCompile Include="..\WinCommEx\Mutex.cpp" />
+    <ClCompile Include="..\WinCommEx\ObfusFileLogger.cpp" />
     <ClCompile Include="..\WinCommEx\PipeClient.cpp" />
     <ClCompile Include="..\WinCommEx\PipeServer.cpp" />
-    <ClCompile Include="FileLogger.cpp" />
-    <ClCompile Include="Mutex.cpp" />
-    <ClCompile Include="ObfusFileLogger.cpp" />
-    <ClCompile Include="ScopedMutexLock.cpp" />
+    <ClCompile Include="..\WinCommEx\ScopedMutexLock.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
