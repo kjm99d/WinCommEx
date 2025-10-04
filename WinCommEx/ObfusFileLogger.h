@@ -2,8 +2,9 @@
 #include "FileLogger.h"
 #include <fstream>
 #include <vector>
+#include "Export.h"
 
-class CObfusFileLogger : public CFileLogger
+class WINCOMMEX_API CObfusFileLogger : public CFileLogger
 {
 public:
     explicit CObfusFileLogger(

@@ -3,13 +3,13 @@
 
 #include <string>
 
-
+#include "Export.h"
 
 
 //-----------------------------------------
 // CMutex: Named or unnamed mutex wrapper
 //-----------------------------------------
-class CMutex {
+class WINCOMMEX_API CMutex {
 public:
     // Constructor: if name provided, create named mutex
     explicit CMutex(const std::wstring& name = L"", bool bInitiallyOwned = false, LPSECURITY_ATTRIBUTES lpAttr = nullptr);

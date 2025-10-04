@@ -4,8 +4,10 @@
 #include <mutex>
 #include <fstream>
 
+#include "Export.h"
 
-class CFileLogger
+
+class WINCOMMEX_API CFileLogger
 {
 public:
 	explicit CFileLogger(const std::wstring& logDir, const std::wstring& baseName = L"WinCommEx");

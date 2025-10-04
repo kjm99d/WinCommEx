@@ -1,11 +1,12 @@
 #pragma once
 #include <Windows.h>
 #include "Mutex.h"
+#include "Export.h"
 
 //-------------------------------------------------------------
 // CScopedMutexLock : RAII 기반 Mutex 자동 해제 도우미 클래스
 //-------------------------------------------------------------
-class CScopedMutexLock {
+class WINCOMMEX_API CScopedMutexLock {
 public:
     explicit CScopedMutexLock(const CMutex& mtx, DWORD timeout = INFINITE);
     ~CScopedMutexLock();
