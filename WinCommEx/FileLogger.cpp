@@ -12,7 +12,7 @@ CFileLogger::~CFileLogger() { Close(); }
 
 void CFileLogger::EnsureFileOpened()
 {
-	std::lock_guard<std::mutex> lock(m_mtx);
+	// std::lock_guard<std::mutex> lock(m_mtx);
 
 	fs::create_directories(m_logDir);
 

@@ -48,7 +48,7 @@ void CObfusFileLogger::SetKey(const std::vector<uint8_t>& key)
 
 void CObfusFileLogger::EnsureBinOpened()
 {
-    std::lock_guard<std::mutex> lock(m_mtx);
+    // std::lock_guard<std::mutex> lock(m_mtx); // 락 문제 발생 코드
 
     fs::create_directories(m_logDir);
 
