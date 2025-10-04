@@ -12,8 +12,6 @@ CFileLogger::~CFileLogger() { Close(); }
 
 void CFileLogger::EnsureFileOpened()
 {
-	// std::lock_guard<std::mutex> lock(m_mtx);
-
 	fs::create_directories(m_logDir);
 
 	const std::wstring today = GetCurrentDateString();
@@ -59,7 +57,7 @@ void CFileLogger::WriteLine(const std::wstring& message)
 	EnsureFileOpened();
 	if (!m_stream.is_open()) return;
 
-	m_stream << FormatTimePrefix() << message << L"\n";
+	m_stream << message << L"\n";
 	m_stream.flush();
 }
 

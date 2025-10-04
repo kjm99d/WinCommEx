@@ -95,7 +95,7 @@ void CObfusFileLogger::WriteLine(const std::wstring& message)
     EnsureBinOpened();
     if (!m_bin.is_open()) return;
 
-    const std::wstring decorated = FormatTimePrefix() + message + L"\n";
+    const std::wstring decorated = message + L"\n";
     std::string utf8 = WStringToUtf8(decorated);
     std::vector<uint8_t> buf(utf8.begin(), utf8.end());
 
