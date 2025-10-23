@@ -43,6 +43,12 @@
     <Filter Include="헤더 파일\Logger">
       <UniqueIdentifier>{3feea795-eebe-46de-a745-db14b8f17feb}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\WinHttp">
+      <UniqueIdentifier>{5ade15d3-7c1d-490b-9128-37f98ae67d4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="헤더 파일\WinHttp">
+      <UniqueIdentifier>{e6256035-688a-42f5-9ad9-0bdaeedbe295}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\WinCommEx\PipeProtocol.h">
@@ -72,6 +78,9 @@
     <ClInclude Include="..\WinCommEx\ScopedMutexLock.h">
       <Filter>헤더 파일\Mutex</Filter>
     </ClInclude>
+    <ClInclude Include="..\WinCommEx\WinHttpRestClient.h">
+      <Filter>헤더 파일\WinHttp</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\WinCommEx\PipeServer.cpp">
@@ -94,6 +103,9 @@
     </ClCompile>
     <ClCompile Include="..\WinCommEx\Mutex.cpp">
       <Filter>소스 파일\Mutex</Filter>
+    </ClCompile>
+    <ClCompile Include="..\WinCommEx\WinHttpRestClient.cpp">
+      <Filter>소스 파일\WinHttp</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

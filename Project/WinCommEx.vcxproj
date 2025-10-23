@@ -160,6 +160,7 @@
     <ClInclude Include="..\WinCommEx\PipeProtocol.h" />
     <ClInclude Include="..\WinCommEx\PipeServer.h" />
     <ClInclude Include="..\WinCommEx\ScopedMutexLock.h" />
+    <ClInclude Include="..\WinCommEx\WinHttpRestClient.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\WinCommEx\dllmain.cpp" />
@@ -169,6 +170,7 @@
     <ClCompile Include="..\WinCommEx\PipeClient.cpp" />
     <ClCompile Include="..\WinCommEx\PipeServer.cpp" />
     <ClCompile Include="..\WinCommEx\ScopedMutexLock.cpp" />
+    <ClCompile Include="..\WinCommEx\WinHttpRestClient.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
